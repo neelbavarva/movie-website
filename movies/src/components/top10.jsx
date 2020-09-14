@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {getMovies} from '../services/fakeMovieService';
 
 class Top10 extends Component {
@@ -10,18 +11,23 @@ class Top10 extends Component {
     render() { 
         return ( 
             <div>
-                Top10 movies
+                Top10 movies                   
                 <tbody>
                     {this.state.movies.map(movie => 
                         <tr>
                             <div className="card offset-3" >
-                                <img width="150px" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRf61mker2o4KH3CbVE7Zw5B1-VogMH8LfZHEaq3UdCMLxARZAB"/>
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="row no-gutters">
+                                <div className="col-sm-5">
+                                <img width="150px" src="./images/interstellar.jpg"/>
                                 </div>
+                                <div class="col-sm-7">
+                                    <div class="card-body offset-2">
+                                        <h5 class="card-title">Alice Liddel</h5>
+                                     
+                                    </div>
+                                </div>
+                            </div>
                             </div><br/>
-                            {/* <td>{movie.title}</td>
-                            <td>{movie.title ==="Interstellar" ? <img width="150px" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRf61mker2o4KH3CbVE7Zw5B1-VogMH8LfZHEaq3UdCMLxARZAB" /> : "no"}</td> */}
                         </tr>
                         )}
                 </tbody>
