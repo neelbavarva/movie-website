@@ -4,7 +4,7 @@ const movies = [
   {
     _id: "1",
     title: "Interstellar",
-    image : "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRf61mker2o4KH3CbVE7Zw5B1-VogMH8LfZHEaq3UdCMLxARZAB",
+    image : "/images/interstellar.jpg",
     genre: { _id: "1", name: "Sci-fi" },
     year: "2014",
     time: "2h 49m",
@@ -15,7 +15,7 @@ const movies = [
   },
   {
     _id: "2",
-    title: "Dark Knight",
+    title: "The Dark Knight",
     image : "https://contentserver.com.au/assets/598411_p173378_p_v8_au.jpg",
     genre: { _id: "2", name: "Action" },
     year: "2008",
@@ -36,49 +36,49 @@ const movies = [
     liked: true
   },
   {
-    _id: "5b21ca3eeb7f6fbccd471819",
-    title: "Trip to Italy",
-    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+    _id: "4",
+    title: "Godfather",
+    genre: { _id: "4", name: "Comedy" },
     numberInStock: 7,
     dailyRentalRate: 3.5,
     liked: false
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181a",
-    title: "Airplane",
-    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+    _id: "5",
+    title: "Se7en",
+    genre: { _id: "5", name: "Comedy" },
     numberInStock: 7,
     dailyRentalRate: 3.5,
     liked: true
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181b",
-    title: "Wedding Crashers",
-    genre: { _id: "5b21ca3eeb7f6fbccd471814", name: "Comedy" },
+    _id: "6",
+    title: "Fight Club",
+    genre: { _id: "5", name: "Comedy" },
     numberInStock: 7,
     dailyRentalRate: 3.5,
     liked: false
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181e",
-    title: "Gone Girl",
-    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    _id: "6",
+    title: "Shawshank Redemption",
+    genre: { _id: "6", name: "Thriller" },
     numberInStock: 7,
     dailyRentalRate: 4.5,
     liked: false
   },
   {
-    _id: "5b21ca3eeb7f6fbccd47181f",
-    title: "The Sixth Sense",
-    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    _id: "7",
+    title: "Shutter Island",
+    genre: { _id: "7", name: "Thriller" },
     numberInStock: 4,
     dailyRentalRate: 3.5,
     liked: true
   },
   {
-    _id: "5b21ca3eeb7f6fbccd471821",
-    title: "The Avengers",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    _id: "8",
+    title: "John Wick",
+    genre: { _id: "8", name: "Action" },
     numberInStock: 7,
     dailyRentalRate: 3.5,
     liked: false
