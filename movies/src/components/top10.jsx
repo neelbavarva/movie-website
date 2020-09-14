@@ -49,6 +49,10 @@ class Top10 extends Component {
                             </div>
                             <div className="col-3">
                             <ReactPlayer
+                                className="videoFrame"
+                                light={true}
+                                playing
+                                controls
                                 width="500px"
                                 height="280px"
                                 url={movie.url}
