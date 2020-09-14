@@ -5,18 +5,17 @@ const movies = [
     _id: "1",
     title: "Interstellar",
     image : "/images/interstellar.jpg",
+    url: "https://www.youtube.com/watch?v=Lm8p5rlrSkY",
     genre: { _id: "1", name: "Sci-fi" },
     year: "2014",
-    time: "2h 49m",
-    numberInStock: 6,
-    dailyRentalRate: 2.5,
-    publishDate: "2018-01-03T19:04:28.809Z",
-    liked: false
+    time: "2h 49m"
+    
   },
   {
     _id: "2",
     title: "The Dark Knight",
     image : "https://contentserver.com.au/assets/598411_p173378_p_v8_au.jpg",
+    url: "https://www.youtube.com/watch?v=EXeTwQWrcwY",
     genre: { _id: "2", name: "Action" },
     year: "2008",
     time: "2h 32m",
@@ -28,6 +27,7 @@ const movies = [
     _id: "3",
     title: "Inception",
     image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRo9vfJCM6dzPkZHIHBVCtlJnAnew9Ai26kEdrli0-tfmatmciD",
+    url: "https://www.youtube.com/watch?v=YoHD9XEInc0",
     genre: { _id: "3", name: "Action" },
     year: "2010",
     time: "2h 42m",

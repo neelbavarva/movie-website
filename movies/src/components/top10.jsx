@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {getMovies} from '../services/fakeMovieService';
 import Pagination from './pagination';
 import {paginate} from '../utils/paginate';
+import ReactPlayer from "react-player"
 
 class Top10 extends Component {
 
@@ -21,16 +22,20 @@ class Top10 extends Component {
         const {pageSize, currentPage, movies: allMovies} = this.state;
         const movies = paginate(allMovies,currentPage,pageSize);
         return ( 
-            <div> <br/>
+            <div className="bg-color"> <br/>
                 <h6 className="offset-1">Top10 movies </h6>
-                <br/>                 
+                <br/>   
+                
                 <tbody>
                     {movies.map(movie => 
+                    
                         <tr>
+                            <div className="row">
+                            <div className="col-9">
                             <div className="card offset-3" >
                             <div class="row no-gutters">
                                 <div className="col-sm-5">
-                                <img width="150px" src={movie.image}/>
+                                <img width="195px" src={movie.image}/>
                                 </div>
                                 <div class="col-sm-7">
                                     <div class="card-body offset-1">
@@ -39,8 +44,21 @@ class Top10 extends Component {
                                     </div>
                                 </div>
                             </div>
-                            </div><br/>
+                            
+                            </div>
+                            </div>
+                            <div className="col-3">
+                            <ReactPlayer
+                                width="500px"
+                                height="280px"
+                                url={movie.url}
+                            /> 
+                            </div>
+                            </div>
+                                
+                            <br/><br/><br/>
                         </tr>
+                        
                         
                         )}
                         <div className="offset-3">
