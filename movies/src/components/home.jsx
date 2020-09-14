@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink ,Link } from 'react-router-dom';
 import About from './about';
-import Top10 from './hollywood/top10';
+import Top10 from './top10';
 
 class Home extends Component {
     

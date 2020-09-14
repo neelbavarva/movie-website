@@ -5,7 +5,7 @@ import About from './components/about';
 import {BrowserRoute, Route , Switch} from 'react-router-dom';
 import Home from './components/home';
 import Navbar from './components/navbar';
-import Top10 from './components/hollywood/top10';
+import Top10 from './components/top10';
 
 function App() {
   return (
