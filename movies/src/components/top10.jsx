@@ -18,12 +18,11 @@ class Top10 extends Component {
                             <div className="card offset-3" >
                             <div class="row no-gutters">
                                 <div className="col-sm-5">
-                                <img width="150px" src="https://raw.githubusercontent.com/neelbavarva/Movie-Website/master/movies/src/components/images/interstellar.jpg?token=AO5HEQFWTDJHAVM2SASKHNK7L5W3U"/>
+                                <img width="150px" src="https://raw.githubusercontent.com/neelbavarva/Movie-Website/master/movies/src/components/images/image.jpg?token=AO5HEQAGYUKHRDDYXQ25MRK7L5XKU"/>
                                 </div>
                                 <div class="col-sm-7">
                                     <div class="card-body offset-2">
-                                        <h5 class="card-title">Alice Liddel</h5>
-                                     
+                                        <h5 class="card-title">{movie.title}</h5>
                                     </div>
                                 </div>
                             </div>
