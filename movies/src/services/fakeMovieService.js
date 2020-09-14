@@ -2,26 +2,35 @@ import * as genresAPI from "./fakeGenreService";
 
 const movies = [
   {
-    _id: "5b21ca3eeb7f6fbccd471815",
+    _id: "1",
     title: "Interstellar",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    image : "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRf61mker2o4KH3CbVE7Zw5B1-VogMH8LfZHEaq3UdCMLxARZAB",
+    genre: { _id: "1", name: "Sci-fi" },
+    year: "2014",
+    time: "2h 49m",
     numberInStock: 6,
     dailyRentalRate: 2.5,
     publishDate: "2018-01-03T19:04:28.809Z",
     liked: false
   },
   {
-    _id: "5b21ca3eeb7f6fbccd471816",
-    title: "Die Hard",
-    genre: { _id: "5b21ca3eeb7f6fbccd471818", name: "Action" },
+    _id: "2",
+    title: "Dark Knight",
+    image : "https://contentserver.com.au/assets/598411_p173378_p_v8_au.jpg",
+    genre: { _id: "2", name: "Action" },
+    year: "2008",
+    time: "2h 32m",
     numberInStock: 5,
     dailyRentalRate: 2.5,
     liked: true
   },
   {
-    _id: "5b21ca3eeb7f6fbccd471817",
-    title: "Get Out",
-    genre: { _id: "5b21ca3eeb7f6fbccd471820", name: "Thriller" },
+    _id: "3",
+    title: "Inception",
+    image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRo9vfJCM6dzPkZHIHBVCtlJnAnew9Ai26kEdrli0-tfmatmciD",
+    genre: { _id: "3", name: "Action" },
+    year: "2010",
+    time: "2h 42m",
     numberInStock: 8,
     dailyRentalRate: 3.5,
     liked: true
