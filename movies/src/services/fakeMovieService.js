@@ -60,25 +60,33 @@ const movies = [
     liked: false
   },
   {
-    _id: "6",
+    _id: "7",
     title: "Shawshank Redemption",
-    genre: { _id: "6", name: "Thriller" },
+    genre: { _id: "7", name: "Thriller" },
     numberInStock: 7,
     dailyRentalRate: 4.5,
     liked: false
   },
   {
-    _id: "7",
+    _id: "8",
     title: "Shutter Island",
-    genre: { _id: "7", name: "Thriller" },
+    genre: { _id: "8", name: "Thriller" },
     numberInStock: 4,
     dailyRentalRate: 3.5,
     liked: true
   },
   {
-    _id: "8",
+    _id: "9",
     title: "John Wick",
-    genre: { _id: "8", name: "Action" },
+    genre: { _id: "9", name: "Action" },
+    numberInStock: 7,
+    dailyRentalRate: 3.5,
+    liked: false
+  },
+  {
+    _id: "10",
+    title: "Prestige",
+    genre: { _id: "10", name: "Action" },
     numberInStock: 7,
     dailyRentalRate: 3.5,
     liked: false

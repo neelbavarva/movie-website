@@ -8,7 +8,7 @@ class Top10 extends Component {
 
     state = {
         movies : getMovies(),
-        pageSize: 4,
+        pageSize: 5,
         currentPage: 1
     };
 
