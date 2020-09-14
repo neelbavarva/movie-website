@@ -18,7 +18,7 @@ class Top10 extends Component {
                             <div className="card offset-3" >
                             <div class="row no-gutters">
                                 <div className="col-sm-5">
-                                <img width="150px" src="./images/interstellar.jpg"/>
+                                <img width="150px" src="https://raw.githubusercontent.com/neelbavarva/Movie-Website/master/movies/src/components/images/interstellar.jpg?token=AO5HEQFWTDJHAVM2SASKHNK7L5W3U"/>
                                 </div>
                                 <div class="col-sm-7">
                                     <div class="card-body offset-2">
