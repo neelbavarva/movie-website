@@ -9,7 +9,7 @@ import Top10 from './components/top10';
 
 function App() {
   return (
-    <div >
+    <div>
       <div >
         <Navbar />
         <Switch>
