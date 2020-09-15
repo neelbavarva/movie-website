@@ -9,8 +9,8 @@ import Top10 from './components/top10';
 
 function App() {
   return (
-    <div>
-      <div className="content">
+    <div >
+      <div >
         <Navbar />
         <Switch>
           <Route path="/top10" component={Top10} />
