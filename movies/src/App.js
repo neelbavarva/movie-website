@@ -6,6 +6,7 @@ import {BrowserRoute, Route , Switch} from 'react-router-dom';
 import Home from './components/home';
 import Navbar from './components/navbar';
 import Top10 from './components/top10';
+import Login from './components/login';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route path="/top10" component={Top10} />
           <Route path="/about" component={About} />
+          <Route path="/login" component={Login} />
           <Route path="/" component={Home} />
         </Switch>
       </div>
