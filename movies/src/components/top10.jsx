@@ -23,6 +23,7 @@ class Top10 extends Component {
         const movies = paginate(allMovies,currentPage,pageSize);
         return ( 
             <div className="bg-color"> <br/>
+                
                 <h6 className="offset-1">Top10 movies </h6>
                 <br/>   
                 

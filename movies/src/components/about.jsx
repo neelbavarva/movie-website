@@ -7,7 +7,7 @@ class About extends Component {
             <div className="bg-color">
                 <section id="main-about">
                     <div class="main-about-container">
-                        <h1>Developer's Side</h1>
+                        <h1 id="mainposter">Developer's Side</h1>
                         <h2>Scroll karva par navbar transparent thai jai aavu karvu che</h2>
                         <a href="#mainpage" class="btn-scroll scrollto" title="Scroll Down" ><img src="/images/arrow.png" /></a>
                     </div>
