@@ -32,11 +32,13 @@ class Top10 extends Component {
                     
                         <tr>
                             <div className="row">
-                            <div className="col-9">
+                            <div className="container">
                             <div className="card offset-3" >
                             <div class="row no-gutters">
                                 <div className="col-sm-5">
+                                <a href={movie.url} target="_blank">
                                 <img width="195px" src={movie.image}/>
+                                </a>
                                 </div>
                                 <div class="col-sm-7">
                                     <div class="card-body offset-1">
@@ -48,17 +50,7 @@ class Top10 extends Component {
                             
                             </div>
                             </div>
-                            <div className="col-3">
-                            <ReactPlayer
-                                className="videoFrame"
-                                light={true}
-                                playing
-                                controls
-                                width="500px"
-                                height="280px"
-                                url={movie.url}
-                            /> 
-                            </div>
+                            
                             </div>
                                 
                             <br/><br/><br/>

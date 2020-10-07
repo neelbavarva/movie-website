@@ -8,6 +8,7 @@ import Navbar from './components/navbar';
 import Top10 from './components/top10';
 import Login from './components/login';
 import Signup from './components/signup';
+import Demo from './components/demo';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
+          <Route path="/demo" component={Demo} />
           <Route path="/" component={Home} />
         </Switch>
       </div>

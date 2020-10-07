@@ -24,6 +24,7 @@ class Home extends Component {
                 <br/><br/><br/><br/>
                 
                 {/* Buttons */}
+                {/* Bookmark */}
                 <div className="row">
                 <div className="header-buttons">
                 <a href="#allcategories"><div class="button button-2">All Categories</div></a>
@@ -319,10 +320,10 @@ class Home extends Component {
                             <div class="container">
                                 <div class="social-links">
                                     <a href="#"><img className="instalogo" src="/images/instagram.png" /><span>Instagram</span></a>
-                                    <a href="#"><img className="quoralogo" src="/images/quora.png" /><span className="m-2">Quora</span></a>
-                                    <a href="#"><img className="facebooklogo" src="/images/facebook.png" /><span className="m-2">Facebook</span></a>
-                                    <a href="https://www.linkedin.com/in/neel-bavarva-61662a1a3/" target="_blank"><img className="linkedinlogo" src="/images/linkedin.png" /><span className="m-2">LinkedIn</span></a>
-                                    <a href="#"><img className="twitterlogo" src="/images/twitter.png" /><span className="m-2">Twitter</span></a>
+                                    <a href="#"><img className="quoralogo" src="/images/quora.png" /><span>Quora</span></a>
+                                    <a href="#"><img className="facebooklogo" src="/images/facebook.png" /><span>Facebook</span></a>
+                                    <a href="https://www.linkedin.com/in/neel-bavarva-61662a1a3/" target="_blank"><img className="linkedinlogo" src="/images/linkedin.png" /><span>LinkedIn</span></a>
+                                    <a href="#"><img className="twitterlogo" src="/images/twitter.png" /><span>Twitter</span></a>
                                 </div>
                             </div>
                         </div>

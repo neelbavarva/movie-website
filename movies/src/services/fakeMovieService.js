@@ -5,7 +5,7 @@ const movies = [
     _id: "1",
     title: "Interstellar",
     image : "/images/interstellar.jpg",
-    url: "https://www.youtube.com/watch?v=Lm8p5rlrSkY",
+    url: "https://www.youtube.com/watch?v=zSWdZVtXT7E",
     genre: { _id: "1", name: "Sci-fi" },
     year: "2014",
     time: "2h 49m"
