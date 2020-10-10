@@ -1,0 +1,37 @@
+#header {
+    height: 80px;
+
+  }
+  
+  #header.header-transparent {
+    background: rgba(25, 28, 31, 0.8);
+  }
+  
+  .nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu > ul {
+    display: flex;
+  }
+  
+  
+  .nav-menu a {
+    display: block;
+    position: relative;
+    color: #fff;
+    padding: 10px 15px;
+    transition: 0.3s;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+    color:#fdbb28;
+    text-decoration: none;
+  }
+  
