@@ -24,7 +24,6 @@ class Home extends Component {
               
                 <p id="mainpage">_</p>
                 <br/><br/><br/><br/>
-                
                 {/* Buttons */}
                 {/* Bookmark */}
                 <div className="row">

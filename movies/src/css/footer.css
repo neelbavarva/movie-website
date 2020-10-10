@@ -24,14 +24,6 @@
 	margin-bottom: 44px;
 }
 
-.footer-widget .about-widget img {
-	margin-bottom: 40px;
-}
-
-.footer-widget ul {
-	list-style: none;
-}
-
 .footer-widget ul li {
 	display: block;
 }
@@ -41,10 +33,6 @@
 	color: white;
 	font-size: 16px;
 	margin-bottom: 10px;
-}
-
-.footer-widget.fw-latest-post .fw-title {
-	margin-bottom: 25px;
 }
 
 .social-links-warp {
@@ -61,16 +49,6 @@
 	margin-right: 0;
 }
 
-.social-links a i {
-	font-size: 30px;
-	color: #d7d7d7;
-	float: left;
-	margin-right: 19px;
-	overflow: hidden;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
 .social-links a span {
 	display: inline-block;
 	font-size: 12px;
@@ -80,8 +58,4 @@
 	padding-top: 10px;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
-}
-
-.social-links a:hover i {
-	color: #10ddb4;
 }
